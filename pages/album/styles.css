@@ -387,3 +387,52 @@ header nav a:hover::after {
 #album-article-5 a:hover {
   color: #adafb0;
 }
+
+#container-album-6 {
+  width: 100%;
+  height: 700px;
+  background-image: linear-gradient(to bottom, #f26225, #f36121);
+  display: flex;
+  justify-content: center;
+}
+
+#album-article-6 h2{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  color: #000100;
+}
+
+#album-article-6 p, .musicas-article-6{
+  font-family: "Prompt", sans-serif;
+  color: #000100;
+}
+
+#article-container-6 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+#album-article-6 {
+  width: 500px;
+  height: 500px;
+}
+
+.musicas-article-6 {
+  padding: 10px;
+}
+
+#album-aside-6 img {
+  width: 350px;
+  border-radius: 5px;
+  margin-top: 90px;
+}
+
+#album-article-6 a{
+  color: #000100;
+  font-size: 20px;
+}
+
+#album-article-6 a:hover {
+  color: #d32036;
+}
