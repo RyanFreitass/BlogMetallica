@@ -235,11 +235,12 @@ main {
   font-size: 18px;
   color: var(--cor-terciaria);
   margin-bottom: 5px;
+  font-family: "Prompt", sans-serif;
 }
 
 .titulo-noticia {
   margin-left: 20px;
-  font-family: "Instrument Serif", serif;
+  font-family: "Prompt", sans-serif;
   color: var(--cor-terciaria);
   margin-top: 5px;
 }

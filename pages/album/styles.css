@@ -124,6 +124,7 @@ header nav a:hover::after {
     margin-top: 0; 
     color: white;
     margin-left: 10px;
+    margin-right: 10px;
     font-family: "Bebas Neue", sans-serif;
     font-size: 26px;
  
