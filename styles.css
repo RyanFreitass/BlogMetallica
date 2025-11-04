@@ -75,7 +75,7 @@ header a:hover::after {
 }
 
 main {
-  background-color: #495057;
+  background: linear-gradient(to bottom right, #495057 0%, #DEE2E6 100%);
 }
 
 #container-main {

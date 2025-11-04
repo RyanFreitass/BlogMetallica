@@ -437,3 +437,101 @@ header nav a:hover::after {
 #album-article-6 a:hover {
   color: #d32036;
 }
+
+#container-album-7 {
+  width: 100%;
+  height: 820px;
+  background-image: linear-gradient(to bottom, #000000, #212529);
+  display: flex;
+  justify-content: center;
+}
+
+#album-article-7 h2{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+#album-article-7 p, .musicas-article-7{
+  font-family: "Prompt", sans-serif;
+  color: white;
+}
+
+#article-container-7 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+#album-article-7 {
+  width: 500px;
+  height: 500px;
+}
+
+.musicas-article-7 {
+  padding: 10px;
+}
+
+#album-aside-7 img {
+  width: 350px;
+  border-radius: 5px;
+  margin-top: 90px;
+}
+
+#album-article-7 a{
+  color: white;
+  font-size: 20px;
+}
+
+#album-article-7 a:hover {
+  color: gray;
+}
+
+#container-album-8 {
+  width: 100%;
+  height: 950px;
+  background-image: linear-gradient(to bottom, #071923, #30333e);
+  display: flex;
+  justify-content: center;
+}
+
+#album-article-8 h2{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+#album-article-8 p, .musicas-article-8{
+  font-family: "Prompt", sans-serif;
+  color: white;
+}
+
+#article-container-8 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+#album-article-8 {
+  width: 500px;
+  height: 500px;
+}
+
+.musicas-article-8 {
+  padding: 10px;
+}
+
+#album-aside-8 img {
+  width: 350px;
+  border-radius: 5px;
+  margin-top: 90px;
+}
+
+#album-article-8 a{
+  color: white;
+  font-size: 20px;
+}
+
+#album-article-8 a:hover {
+  color: gray;
+}
