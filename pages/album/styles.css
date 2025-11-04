@@ -163,6 +163,7 @@ header nav a:hover::after {
 #album-article{
   width: 500px;
   height: 500px;
+  margin-top: 100px;
 }
 
 #album-article h2{
@@ -191,6 +192,10 @@ header nav a:hover::after {
   width: 350px;
   border-radius: 5px;
   margin-top: 90px;
+}
+
+.iframe-spotify-1 {
+  margin-top: 40px;
 }
 
 #container-album-2 {
@@ -242,6 +247,10 @@ header nav a:hover::after {
   margin-top: 90px;
 }
 
+.iframe-spotify-2 {
+  margin-top: 40px;
+}
+
 #container-album-3 {
   width: 100%;
   height: 750px;
@@ -288,7 +297,11 @@ header nav a:hover::after {
 #album-aside-3 img {
   width: 350px;
   border-radius: 5px;
-  margin-top: 90px;
+  margin-top: 30px;
+}
+
+.iframe-spotify-3 {
+  margin-top: 40px;
 }
 
 #container-album-4 {
@@ -328,7 +341,7 @@ header nav a:hover::after {
 #album-aside-4 img {
   width: 350px;
   border-radius: 5px;
-  margin-top: 90px;
+  margin-top: 30px;
 }
 
 #album-article-4 a{
@@ -340,9 +353,13 @@ header nav a:hover::after {
   color: white;
 }
 
+.iframe-spotify-4 {
+  margin-top: 40px;
+}
+
 #container-album-5 {
   width: 100%;
-  height: 700px;
+  height: 730px;
   background-image: linear-gradient(to bottom, #efefed, #9fa1a2);
   display: flex;
   justify-content: center;
@@ -362,7 +379,7 @@ header nav a:hover::after {
 #article-container-5 {
   display: flex;
   flex-direction: row;
-  margin-top: 100px;
+  margin-top: 90px;
 }
 
 #album-article-5 {
@@ -377,7 +394,7 @@ header nav a:hover::after {
 #album-aside-5 img {
   width: 350px;
   border-radius: 5px;
-  margin-top: 90px;
+  margin-top: 10px;
 }
 
 #album-article-5 a{
@@ -389,9 +406,13 @@ header nav a:hover::after {
   color: #adafb0;
 }
 
+.iframe-spotify-5 {
+  margin-top: 40px;
+}
+
 #container-album-6 {
   width: 100%;
-  height: 700px;
+  height: 730px;
   background-image: linear-gradient(to bottom, #f26225, #f36121);
   display: flex;
   justify-content: center;
@@ -426,7 +447,7 @@ header nav a:hover::after {
 #album-aside-6 img {
   width: 350px;
   border-radius: 5px;
-  margin-top: 90px;
+  margin-top: 10px;
 }
 
 #album-article-6 a{
@@ -438,9 +459,13 @@ header nav a:hover::after {
   color: #d32036;
 }
 
+.iframe-spotify-6 {
+  margin-top: 40px;
+}
+
 #container-album-7 {
   width: 100%;
-  height: 820px;
+  height: 860px;
   background-image: linear-gradient(to bottom, #000000, #212529);
   display: flex;
   justify-content: center;
@@ -487,10 +512,14 @@ header nav a:hover::after {
   color: gray;
 }
 
+.iframe-spotify-7 {
+  margin-top: 40px;
+}
+
 #container-album-8 {
   width: 100%;
-  height: 950px;
-  background-image: linear-gradient(to bottom, #071923, #30333e);
+  height: 990px;
+  background-image: linear-gradient(to right, #181f23, #3f4459);
   display: flex;
   justify-content: center;
 }
@@ -533,5 +562,452 @@ header nav a:hover::after {
 }
 
 #album-article-8 a:hover {
-  color: gray;
+  color: #8bcde3;
+}
+
+.iframe-spotify-8 {
+  margin-top: 40px;
+}
+
+#container-album-9 {
+  width: 100%;
+  height: 730px;
+  background-image: linear-gradient(to bottom, #97151f, #efab12);
+  display: flex;
+  justify-content: center;
+}
+
+#album-article-9 h2{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  color: #dcdcdc;
+}
+
+#album-article-9 p, .musicas-article-9{
+  font-family: "Prompt", sans-serif;
+  color: #dcdcdc;
+}
+
+#article-container-9 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+#album-article-9 {
+  width: 500px;
+  height: 500px;
+}
+
+.musicas-article-9 {
+  padding: 10px;
+}
+
+#album-aside-9 img {
+  width: 350px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#album-article-9 a{
+  color: #dcdcdc;
+  font-size: 20px;
+}
+
+#album-article-9 a:hover {
+  color: #f8ba15;
+}
+
+.iframe-spotify-9 {
+  margin-top: 40px;
+}
+
+#container-album-10 {
+  width: 100%;
+  height: 730px;
+  background-image: linear-gradient(to left, #ac2332, #d39475);
+  display: flex;
+  justify-content: center;
+}
+
+#album-article-10 h2{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  color: #151517;
+}
+
+#album-article-10 p, .musicas-article-10{
+  font-family: "Prompt", sans-serif;
+  color: #151517;
+}
+
+#article-container-10 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+#album-article-10 {
+  width: 500px;
+  height: 500px;
+}
+
+.musicas-article-10 {
+  padding: 10px;
+}
+
+#album-aside-10 img {
+  width: 350px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#album-article-10 a{
+  color: #151517;
+  font-size: 20px;
+}
+
+#album-article-10 a:hover {
+  color: #e38d6c;
+}
+
+.iframe-spotify-10 {
+  margin-top: 40px;
+}
+
+#container-album-11 {
+  width: 100%;
+  height: 730px;
+  background-color: #212529;
+  display: flex;
+  justify-content: center;
+}
+
+#album-article-11 h2{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+#album-article-11 p, .musicas-article-11{
+  font-family: "Prompt", sans-serif;
+  color: white;
+}
+
+#article-container-11 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+#album-article-11 {
+  width: 500px;
+  height: 500px;
+}
+
+.musicas-article-11 {
+  padding: 10px;
+}
+
+#album-aside-11 img {
+  width: 350px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#album-article-11 a{
+  color: white;
+  font-size: 20px;
+}
+
+#album-article-11 a:hover {
+  color: black;
+}
+
+.iframe-spotify-11 {
+  margin-top: 40px;
+}
+
+#container-album-12 {
+  width: 100%;
+  height: 730px;
+  background-image: linear-gradient(to bottom, #d7d7cb, #afaea8);
+  display: flex;
+  justify-content: center;
+}
+
+#album-article-12 h2{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  color: #020200;
+}
+
+#album-article-12 p, .musicas-article-12{
+  font-family: "Prompt", sans-serif;
+  color: #020200;
+}
+
+#article-container-12 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+#album-article-12 {
+  width: 500px;
+  height: 500px;
+}
+
+.musicas-article-12 {
+  padding: 10px;
+}
+
+#album-aside-12 img {
+  width: 350px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#album-article-12 a{
+  color: #020200;
+  font-size: 20px;
+}
+
+#album-article-12 a:hover {
+  color: #aecc79;
+}
+
+.iframe-spotify-12 {
+  margin-top: 40px;
+}
+
+
+#container-album-13 {
+  width: 100%;
+  height: 770px;
+  background-image: linear-gradient(to right, #b1adb1, #d6d2c6);
+  display: flex;
+  justify-content: center;
+}
+
+#album-article-13 h2{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  color: #020200;
+}
+
+#album-article-13 p, .musicas-article-13{
+  font-family: "Prompt", sans-serif;
+  color: #020200;
+}
+
+#article-container-13 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+}
+
+#album-article-13 {
+  width: 500px;
+  height: 500px;
+}
+
+.musicas-article-13 {
+  padding: 10px;
+}
+
+#album-aside-13 img {
+  width: 350px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#album-article-13 a{
+  color: #020200;
+  font-size: 20px;
+}
+
+#album-article-13 a:hover {
+  color: #9c5f36;
+}
+
+.iframe-spotify-13 {
+  margin-top: 40px;
+}
+
+#container-album-14 {
+  width: 100%;
+  height: 700px;
+  background-image: linear-gradient(to bottom, #242720, #962d3b);
+  display: flex;
+  justify-content: center;
+}
+
+#album-article-14 h2{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  color: #eee3cf;
+}
+
+#album-article-14 p, .musicas-article-14{
+  font-family: "Prompt", sans-serif;
+  color: #eee3cf;
+}
+
+#article-container-14 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+}
+
+#album-article-14 {
+  width: 500px;
+  height: 500px;
+}
+
+.musicas-article-14 {
+  padding: 10px;
+}
+
+#album-aside-14 img {
+  width: 350px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+#album-article-14 a{
+  color: #eee3cf;
+  font-size: 20px;
+}
+
+#album-article-14 a:hover {
+  color: #f8ae43;
+}
+
+.iframe-spotify-14 {
+  margin-top: 40px;
+}
+
+#container-album-15 {
+  width: 100%;
+  height: 700px;
+  background-image: linear-gradient(to right, #1a102c, #2d2a71);
+  display: flex;
+  justify-content: center;
+}
+
+#album-article-15 h2{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  color: #bdbdc9;
+}
+
+#album-article-15 p, .musicas-article-15{
+  font-family: "Prompt", sans-serif;
+  color: #bdbdc9;
+}
+
+#article-container-15 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+}
+
+#album-article-15 {
+  width: 500px;
+  height: 500px;
+}
+
+.musicas-article-15 {
+  padding: 10px;
+}
+
+#album-aside-15 img {
+  width: 350px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+#album-article-15 a{
+  color: #bdbdc9;
+  font-size: 20px;
+}
+
+#album-article-15 a:hover {
+  color: #0d0c12;
+}
+
+#container-album-16 {
+  width: 100%;
+  height: 700px;
+  background-image: linear-gradient(to bottom, #0c0809, #c9332c);
+  display: flex;
+  justify-content: center;
+}
+
+#album-article-16 h2{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  color: #e6e6da;
+}
+
+#album-article-16 p, .musicas-article-16{
+  font-family: "Prompt", sans-serif;
+  color: #e6e6da;
+}
+
+#article-container-16 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+}
+
+#album-article-16 {
+  width: 500px;
+  height: 500px;
+}
+
+.musicas-article-16 {
+  padding: 10px;
+}
+
+#album-aside-16 img {
+  width: 350px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+#album-article-16 a{
+  color: #e6e6da;
+  font-size: 20px;
+}
+
+#album-article-16 a:hover {
+  color: #c9332c;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+#container-footer {
+    width: 100%;
+    height: 190px;
+    background-color: black;
+}
+
+#container-footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 216px;
+    margin-right: 216px;
+}
+
+.paragrafo-footer {
+    color: white;
+    font-family: "Prompt", sans-serif;
+    text-align: center;
 }
