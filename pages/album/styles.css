@@ -1022,3 +1022,73 @@ header nav a:hover::after {
     font-family: "Prompt", sans-serif;
     text-align: center;
 }
+
+@media (max-width: 600px) {
+  #container-header {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .img-logo {
+    width: 150px;
+    height: auto;
+    padding-top: 10px;
+  }
+
+  #container-nav {
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+    margin: 0;
+  }
+
+  nav {
+    padding-top: 10px;
+    font-size: 18px;
+  }
+
+  #container-main {
+    height: 2200px;
+  }
+
+  .subtitulo-main {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  #container-album {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 450px;
+    height: auto;
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .album-item {
+    padding-bottom: 10px;
+  }
+
+  .album-item h3 {
+    font-size: 20px;
+  }
+
+  .album-item h4 {
+    font-size: 13px;
+  }
+
+  #container-footer {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  #container-footer-nav {
+    flex-direction: row;
+    gap: 15px;
+    margin: 0;
+  }
+
+  .paragrafo-footer {
+    font-size: 14px;
+  }
+}
