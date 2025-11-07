@@ -75,14 +75,41 @@ header nav a:hover::after {
 }
 
 #container-img {
-  width: 100%;
-  height: 1000px;
-  background-image: url(/img/metallica_show2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    width: 100%;
+    height: 1000px;
+    background-image: none;
+    background-size: initial;
+    background-repeat: initial; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#container-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/metallica_show2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    transition: transform 0.5s;
+    z-index: 1;
+}
+
+#container-img:hover::before {
+    transform: scale(1.5);
+}
+
+#container-img h1, 
+#container-img button {
+    position: relative;
+    z-index: 2;
 }
 
 .text {
@@ -115,7 +142,7 @@ header nav a:hover::after {
 
 #container-datas {
   width: 100%;
-  height: 1000px;
+  height: 1850px;
   background: linear-gradient(to bottom, black, #343A40);
   color: white;
   overflow: hidden;
@@ -133,25 +160,118 @@ header nav a:hover::after {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 200px;
-  width: 1237px;
-  height: 200px;
-  border: 3px solid;
+  height: 150px;
+  width: 1037px;
+  margin-top: 100px;
+  border-bottom: 3px solid;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+}
+
+.data-info {
+    display: flex;
+    align-items: center;
 }
 
 .data-1 h3 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 45px;
-  margin-left: 30px;
+  margin: 0;
 }
 
 .data-mes {
   font-family: "Prompt", sans-serif;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-
-.local {
+.local-1{
   margin-left: 320px;
+  font-family: "Instrument Serif", serif;
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.ingresso {
+  position: absolute;
+  margin-left: 90%;
+  background: none;
+  border-radius: 3px;
+  border: 2px solid white;
+  padding: 10px;
+}
+
+.ingresso a {
+  color: white;
+  text-decoration: none;
+  font-family: "Prompt", sans-serif;
+}
+
+.local-2 {
+  margin-left: 330px;
+  font-family: "Instrument Serif", serif;
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.local-3{
+  margin-left: 300px;
+  font-family: "Instrument Serif", serif;
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.local-4{
+  margin-left: 345px;
+  font-family: "Instrument Serif", serif;
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.local-5{
+  margin-left: 340px;
+  font-family: "Instrument Serif", serif;
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.local-6{
+  margin-left: 340px;
+  font-family: "Instrument Serif", serif;
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#container-footer {
+    width: 100%;
+    height: 190px;
+    background-color: black;
+}
+
+#container-footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 216px;
+    margin-right: 216px;
+}
+
+.paragrafo-footer {
+    color: white;
+    font-family: "Prompt", sans-serif;
+    text-align: center;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
 }
