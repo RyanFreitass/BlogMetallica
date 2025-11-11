@@ -305,7 +305,7 @@ main {
 
 @media (max-width: 768px) {
   #container-nav {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 20px;
     margin: 0;
