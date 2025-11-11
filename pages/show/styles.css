@@ -275,3 +275,117 @@ header nav a:hover::after {
     width: 50px;
     height: 50px;
 }
+
+@media (max-width: 768px) {
+  #container-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 0;
+  }
+
+  nav {
+    padding-top: 10px;
+    font-size: 18px;
+  }
+
+  .img-logo {
+    width: 140px;
+    height: auto;
+    padding-top: 15px;
+  }
+
+  #container-img {
+    height: 550px;
+  }
+
+  #container-img::before {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .text {
+    font-size: 28px;
+    text-align: center;
+    margin: 180px 0 0 0;
+  }
+
+  .botao button {
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    padding: 8px 16px;
+  }
+
+  #container-datas {
+    height: auto;
+    padding-bottom: 80px;
+  }
+
+  #container-datas h2 {
+    font-size: 36px;
+  }
+
+  .data-1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 90%;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid;
+  }
+
+  .data-info {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .data-1 h3 {
+    font-size: 32px;
+  }
+
+  .data-mes {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .local-1,
+  .local-2,
+  .local-3,
+  .local-4,
+  .local-5,
+  .local-6 {
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .ingresso {
+    position: static;
+    margin: 15px 0 0 0;
+  }
+
+  .ingresso a {
+    font-size: 16px;
+  }
+
+  #container-footer {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  #container-footer-nav {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .paragrafo-footer {
+    font-size: 13px;
+  }
+}

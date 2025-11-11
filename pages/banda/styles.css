@@ -344,3 +344,146 @@ header nav a:hover::after {
     width: 50px;
     height: 50px;
 }
+
+@media (max-width: 768px) {
+  #container-header {
+    height: auto;
+  }
+
+  #container-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 0;
+  }
+
+  nav {
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .img-logo {
+    width: 150px;
+    height: auto;
+    padding-top: 20px;
+  }
+
+  #container-main {
+    height: auto;
+    gap: 100px;
+    padding: 50px 0;
+  }
+
+  #container-text-img-1,
+  #container-text-img-2,
+  #container-text-img-3,
+  #container-text-img-4 {
+    width: 90%;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+
+  #container-text,
+  #container-text-2,
+  #container-text-3,
+  #container-text-4 {
+    width: 100%;
+  }
+
+  .text-h2,
+  .text-h2-2,
+  .text-h2-3,
+  .text-h2-4 {
+    font-size: 45px;
+  }
+
+  .text-p,
+  .text-p-2,
+  .text-p-3,
+  .text-p-4 {
+    font-size: 16px;
+    margin-top: -10px;
+  }
+
+  .img-banda,
+  .img-banda-2,
+  .img-banda-3,
+  .img-banda-4 {
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+  }
+
+  #container-main-2 {
+    height: auto;
+    padding-bottom: 60px;
+  }
+
+  .subtitulo-membros {
+    font-size: 50px;
+    margin-top: 100px;
+  }
+
+  #container-main-2-1 {
+    width: 95%;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+  }
+
+  #container-membros,
+  #container-ex {
+    width: 100%;
+    height: auto;
+  }
+
+  #container-fotos,
+  #container-fotos-2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  #foto-1,
+  #foto-2,
+  #foto-3,
+  #foto-4 {
+    width: 45%;
+  }
+
+  .face {
+    height: 350px;
+  }
+
+  .descricao,
+  .descricao-2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #container-footer {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  #container-footer-nav {
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 0;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .paragrafo-footer {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+}

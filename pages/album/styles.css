@@ -1092,3 +1092,159 @@ header nav a:hover::after {
     font-size: 14px;
   }
 }
+
+@media (max-width: 768px) {
+  #container-header {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .img-logo {
+    width: 180px;
+    height: auto;
+    padding-top: 15px;
+  }
+
+  #container-nav {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 0;
+  }
+
+  nav {
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #container-main {
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  .subtitulo-main {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  #container-album {
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    height: auto;
+    gap: 30px;
+    padding: 0 20px;
+  }
+
+  .album-item h3 {
+    font-size: 22px;
+  }
+
+  .album-item h4 {
+    font-size: 14px;
+  }
+
+  #article-container,
+  #article-container-2,
+  #article-container-3,
+  #article-container-4,
+  #article-container-5,
+  #article-container-6,
+  #article-container-7,
+  #article-container-8,
+  #article-container-9,
+  #article-container-10,
+  #article-container-11,
+  #article-container-12,
+  #article-container-13,
+  #article-container-14,
+  #article-container-15,
+  #article-container-16 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  #album-article,
+  #album-article-2,
+  #album-article-3,
+  #album-article-4,
+  #album-article-5,
+  #album-article-6,
+  #album-article-7,
+  #album-article-8,
+  #album-article-9,
+  #album-article-10,
+  #album-article-11,
+  #album-article-12,
+  #album-article-13,
+  #album-article-14,
+  #album-article-15,
+  #album-article-16 {
+    width: 90%;
+    height: auto;
+  }
+
+  #album-aside img,
+  #album-aside-2 img,
+  #album-aside-3 img,
+  #album-aside-4 img,
+  #album-aside-5 img,
+  #album-aside-6 img,
+  #album-aside-7 img,
+  #album-aside-8 img,
+  #album-aside-9 img,
+  #album-aside-10 img,
+  #album-aside-11 img,
+  #album-aside-12 img,
+  #album-aside-13 img,
+  #album-aside-14 img,
+  #album-aside-15 img,
+  #album-aside-16 img {
+    width: 80%;
+    margin-top: 40px;
+  }
+
+  .iframe-spotify-1,
+  .iframe-spotify-2,
+  .iframe-spotify-3,
+  .iframe-spotify-4,
+  .iframe-spotify-5,
+  .iframe-spotify-6,
+  .iframe-spotify-7,
+  .iframe-spotify-8,
+  .iframe-spotify-9,
+  .iframe-spotify-10,
+  .iframe-spotify-11,
+  .iframe-spotify-12,
+  .iframe-spotify-13,
+  .iframe-spotify-14,
+  .iframe-spotify-15,
+  .iframe-spotify-16 {
+    width: 90%;
+  }
+
+  #container-footer {
+    height: auto;
+    padding: 25px 0;
+  }
+
+  #container-footer-nav {
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 0;
+  }
+
+  .icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .paragrafo-footer {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+}
