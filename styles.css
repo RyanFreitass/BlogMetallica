@@ -302,3 +302,70 @@ main {
     font-family: "Prompt", sans-serif;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+  #container-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 0;
+  }
+
+  header {
+    height: auto;
+  }
+
+  nav {
+    padding-top: 10px;
+    font-size: 18px;
+  }
+
+  .img-logo {
+    width: 140px;
+  }
+
+  #container-main {
+    height: 600px;
+  }
+
+  .titulo-1 {
+    font-size: 50px;
+    margin-top: 50px;
+  }
+
+  #container-main-2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  #noticia-destaque,
+  #noticia-destaque-2 {
+    height: 220px;
+  }
+
+  #noticias-laterais {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  #container-about {
+    width: 95%;
+    padding: 20px 0;
+  }
+
+  .container-text h2 {
+    width: auto;
+  }
+
+  .img-logo-m {
+    width: 180px;
+    height: auto;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+}
